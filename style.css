@@ -1,0 +1,46 @@
+body {
+    background-color: #090a0f;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cartao-links {
+    background-color: #131520;
+    border: 1px solid #1f2335;
+    width: 100%;
+    max-width: 350px;
+}
+
+.borda-avatar {
+    border: 3px solid #00ff87;
+}
+
+.text-cyan {
+    color: #00ff87;
+    font-weight: 500;
+}
+
+.btn-custom {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #1f2335;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #00ff87;
+    color: #090a0f;
+    border-color: #00ff87;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 255, 137, 0.3);
+}
+
+.x-small {
+    font-size: 11px;
+    color: #a0a5b5 !important;
+    letter-spacing: 0.5px;
+}
